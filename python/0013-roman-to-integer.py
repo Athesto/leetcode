@@ -3,7 +3,7 @@ import pytest
 import sys
 
 
-class Solution1:
+class Solution2:
     def romanToInt(self, s: str) -> int:
         symbols = {
             "I": 1,
@@ -25,7 +25,7 @@ class Solution1:
         return output
 
 
-class Solution2:
+class Solution1:
     def romanToInt(self, s: str) -> int:
         symbols = {
             "I": 1,
@@ -55,7 +55,7 @@ class Solution2:
         return output
 
 
-class Solution(Solution1):
+class Solution(Solution2):
     pass
 
 
